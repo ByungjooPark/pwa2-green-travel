@@ -13,7 +13,7 @@ const festivalSlice = createSlice({
   reducers: {
     setScrollEventFlg: (state, action) => {
       state.scrollEventFlg = action.payload;
-    }
+    },
   },
   extraReducers: builder => {
     builder
